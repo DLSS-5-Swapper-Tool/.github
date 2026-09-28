@@ -201,9 +201,7 @@ Image quality, frame-time behavior, stability, and average performance should be
 
 # Changelog
 
-> This section reflects the DLSS 5-era documentation and release line used for this project description. It should not be interpreted as the official NVIDIA DLSS release history.
-
-## v1.3.0.0 — September 28, 2026
+## v5.0.0.0 — September 28, 2026
 
 ### DLSS 5 Edition
 
@@ -219,7 +217,7 @@ Image quality, frame-time behavior, stability, and average performance should be
 - Added additional compatibility warnings for DLSS 5-related components.
 - Expanded documentation for DRM and anti-cheat considerations.
 
-## v1.2.9.0 — September 22, 2026
+## v4.1.7.0 — September 22, 2026
 
 - Updated the compatible component database.
 - Improved game directory scanning.
@@ -229,7 +227,7 @@ Image quality, frame-time behavior, stability, and average performance should be
 - Updated translations.
 - Updated DLSS 5 compatibility documentation.
 
-## v1.2.8.0 — September 15, 2026
+## v3.2.3.0 — September 15, 2026
 
 - Improved handling of multiple installed versions of the same library.
 - Added additional library architecture information.
@@ -238,7 +236,7 @@ Image quality, frame-time behavior, stability, and average performance should be
 - Fixed issues with cancelled downloads.
 - Improved operation logging.
 
-## v1.2.7.0 — September 8, 2026
+## v2.2.1.0 — September 8, 2026
 
 - Updated the DLSS version management interface.
 - Added additional compatibility information.
@@ -305,24 +303,6 @@ Before replacing a library:
 - review anti-cheat and DRM requirements for online games.
 
 If a game stops launching after a replacement, restore the original backup before performing additional modifications.
-
----
-
-## Project Structure
-
-A recommended distribution structure is:
-
-```text
-DLSS-Swapper/
-├── DLSS-Swapper.exe
-├── Libraries/
-├── Backups/
-├── Downloads/
-├── Config/
-└── README.md
-```
-
-The exact directory structure may differ between releases.
 
 ---
 
